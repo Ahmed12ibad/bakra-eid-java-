@@ -6,15 +6,9 @@ margin: 0;
 
 
 
-/* position: relative;
-animation: ahmed 10s infinite linear */ 
+
 }
-/* @keyframes ahmed {
-    100%{
-        background-image: url();
-        
-    }
-} */
+
 
 .head{
 flex: 1;

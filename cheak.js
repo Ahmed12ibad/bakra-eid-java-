@@ -8,7 +8,7 @@ var eidday1=new Date("july 10, 2022").getDay()
 var eidday2=new Date("july 11, 2022").getDay()
 var eidday3=new Date("july 12, 2022").getDay()
 
-//
+
 
 var day1=days[eidday1]
 var day2=days[eidday2]
@@ -19,13 +19,13 @@ var diff1=eidtime1  -  ajkidate
 var diff2=eidtime2  -  ajkidate
 var diff3=eidtime3  -  ajkidate
 
-//day
+//
 
 var eid1=Math.ceil(diff1 / (1000*60*60*24))
 var eid2=Math.ceil(diff2 / (1000*60*60*24))
 var eid3=Math.ceil(diff3 / (1000*60*60*24))
 
-//hours
+//
 
 var eidH1=Math.ceil(diff1 / (1000*60*60))
 var eidH2=Math.ceil(diff2 / (1000*60*60))
@@ -36,7 +36,7 @@ var eidH3=Math.ceil(diff3 / (1000*60*60))
 
 
 
-// day
+// 
 
 var card1=document.getElementById("card-1")
 
@@ -55,7 +55,7 @@ var card3=document.getElementById("card-3")
 
 card3.innerHTML="<h1> third eid <h1/>"+  eid3+ " day baki he "+"<br>"+day3
 
-// hours
+// 
 
 var card1=document.getElementById("card-1")
 
