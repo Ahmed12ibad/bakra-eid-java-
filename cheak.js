@@ -74,4 +74,5 @@ var card3=document.getElementById("card-3")
 
 card3.innerHTML="<h1> third eid <h1/>"+  eid3+ " day "+eidH3+"hours"+"<br>"+day3
 //
+//
 
